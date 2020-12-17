@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/">
+      <img src="https://cdn.discordapp.com/attachments/777803005986734120/777820600059166720/TRANSPARENTE_FLUSHACORP_negro.png" class="img-fluid" style="max-width:400px;" alt="...">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fe fe-x"></i>
+      </button>
+
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="kevin" data-toggle="dropdown" href="#kevinyern" aria-haspopup="true" aria-expanded="false">
+            Kevin Yern
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="flusha" data-toggle="dropdown" href="#flushacorp" aria-haspopup="true" aria-expanded="false">
+            Flushacorp
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="subscribe" data-toggle="dropdown" href="#subscribe" aria-haspopup="true" aria-expanded="false">
+            Subscribe
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  $(document).ready(function () {
+      $("#kevin").click(function () {
+          $('html, body').animate({
+              scrollTop: $("#kevin-section").offset().top
+          }, 1500);
+      });
+      $("#flusha").click(function () {
+          $('html, body').animate({
+              scrollTop: $("#flusha-section").offset().top
+          }, 1500);
+      });
+      $("#subscribe").click(function () {
+          $('html, body').animate({
+              scrollTop: $("#subscribe-section").offset().top
+          }, 1500);
+      });
+  });
+</script>
