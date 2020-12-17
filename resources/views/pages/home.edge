@@ -1,22 +1,22 @@
 @layout('layouts.master')
 @section('content')
-<!-- WELCOME
-================================================== -->
+
 <section class="mt-n10">
   <div class="container d-flex flex-column">
     <div class="row align-items-center justify-content-center min-vh-100 py-8 py-md-11">
-      <div class="col-12 col-md-8 col-lg-7 mt-auto text-center">
+      <div class="col mt-auto text-center">
 
         <!-- Heading -->
-        <h1 class="display-1 mb-0 font-weight-bold">
-          We <span class="text-primary">Filmake</span> Products For All.
+        <h1 data-aos="fade-down" data-aos-delay="400" class="display-1 mb-0 font-weight-bold">
+          We <span class="text-primary">Filmake</span> Products For  <b><span class="text-primary" data-toggle="typed" data-options='{"strings": ["Artists 👨‍🎤", "Companies 🥤", "Commercials 🎬", "Everyone 🪐"]}'></span></b>.
         </h1>
+        <a href="https://flsh.tv/discord"><button data-aos="fade-up" data-aos-delay="400" class="btn btn-outline-primary mt-4"><i class="fab fa-discord"></i> JOIN OUR DISCORD</button></a>
 
       </div>
       <div class="col-12 mt-auto text-center">
 
         <!-- Button -->
-        <a class="btn btn-primary btn-rounded-circle shadow" data-toggle="smooth-scroll" data-offset="0" href="#sectionTwo">
+        <a data-aos="fade-up" data-aos-delay="1000" class="btn btn-primary btn-rounded-circle shadow mb-8" data-toggle="smooth-scroll" data-offset="0" href="#kevin-section">
           <i class="fe fe-arrow-down"></i>
         </a>
 
@@ -27,7 +27,7 @@
 
 <!-- IMAGE
 ================================================== -->
-<a data-aos="fade-in" data-aos-delay="150" class="d-block text-decoration-none" id="kevin-section" data-jarallax data-speed=".8" href="/kevinyern" style="background-image: url(https://cdn.discordapp.com/attachments/778551528810086410/784754661097340968/image7.jpg)">
+<a data-toggle="tooltip" data-placement="top" title="Click to know more 😉" data-original-title="Click to know more 😉" data-aos="fade-in" data-aos-delay="150" class="d-block text-decoration-none" id="kevin-section" data-jarallax data-speed=".8" href="/kevinyern" style="background-image: url(https://cdn.discordapp.com/attachments/778551528810086410/784754661097340968/image7.jpg)">
   <div class="container d-flex flex-column">
     <div class="row align-items-center min-vh-100 py-8 py-md-11">
       <div class="col-12">
@@ -87,7 +87,7 @@
 
 <!-- IMAGE
 ================================================== -->
-<a data-aos="fade-up" data-aos-delay="150" class="d-block text-decoration-none" id="flusha-section" data-jarallax data-speed=".8" href="/flushacorp" style="background-image: url(https://images.unsplash.com/photo-1526698905402-e13b880ad864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)">
+<a data-toggle="tooltip" data-placement="top" title="Click to know more 😉" data-original-title="Click to know more 😉" data-aos="fade-up" data-aos-delay="150" class="d-block text-decoration-none" id="flusha-section" data-jarallax data-speed=".8" href="/flushacorp" style="background-image: url(https://images.unsplash.com/photo-1526698905402-e13b880ad864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)">
   <div class="container d-flex flex-column">
     <div class="row align-items-center min-vh-100 py-8 py-md-11">
       <div class="col-12">
@@ -205,7 +205,7 @@
           <div class="form-group mb-0">
             <div class="input-group input-group-lg input-group-merge rounded-pill bg-white">
             
-                <input type="email" class="form-control form-control-flush" placeholder="elon@tesla.com" aria-label="Enter your email address" id="mauticform_input_web_email" name="mauticform[email]" value="" style="margin-left:15px">
+                <input type="email" class="form-control form-control-flush" placeholder="elon_musk@tesla.com" aria-label="Enter your email address" id="mauticform_input_web_email" name="mauticform[email]" value="" style="margin-left:15px">
                 <div class="input-group-append">
                   <button class="btn btn-white" type="submit" name="mauticform[submit]" id="mauticform_input_web_submit" value="" class="mauticform-button btn btn-default">
                     ✉️
@@ -218,9 +218,10 @@
                 <input type="hidden" name="mauticform[return]" id="mauticform_web_return" value="">
                 <input type="hidden" name="mauticform[formName]" id="mauticform_web_name" value="web">
                 
-              </div>
+              </div> 
               <div class="mauticform-error" id="mauticform_web_error"></div>
               <div class="mauticform-message" id="mauticform_web_message"></div>
+              <div class="mauticform-innerform">
             </div>
           </form>
 
