@@ -5,6 +5,5 @@ const Route = use('Route')
 
 Route.on('/').render('pages.home')
 Route.on('/kevinyern').render('pages.kevin')
-Route.on('/flushacorp').render('pages.flushacorp')
 Route.on('/terms').render('pages.terms')
 Route.on('/privacy').render('pages.privacy')
